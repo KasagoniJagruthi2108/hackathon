@@ -1,0 +1,50 @@
+.card {
+    height: 40vh;
+    width: 400px;
+    border-radius: 20px;
+    background-color: transparent;
+    text-align: center;
+}
+.button{
+    color: #d0b200;
+    background-color: black;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://png.pngtree.com/58pic/32/39/33/20J58PICYhp1DeE3RH58PICaA_PIC2018.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.heading{
+    font-family: "Sans-Serif";
+    color: black;
+    font-weight:bold;
+    font-size: 40px;
+}
+.form{
+    height: 35px;
+    width: 350px;
+    border-radius: 20px;
+    
+    border-color:black;
+    
+    background-color: transparent;
+    color:black;
+    font-weight:bold;
+    margin: 15px;
+}
+.backcolor{
+    color:black;
+}

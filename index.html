@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/20c5629a29.js" crossorigin="anonymous"></script>
+    <style>
+    tbody tr:nth-child(odd) {
+        background-color: #ff4e33;
+      }
+      
+      tbody tr:nth-child(even) {
+        background-color: #e495e4;
+      }
+      
+      tbody tr {
+        background-image: url(noise.png);
+      }
+      
+      table {
+        background-color: #ff33cc;
+      }
+      </style>
+</head>
+
+<body>
+    <header>
+        <!--navigation bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo" href="#">
+                FrostyFashions
+            </a>
+            <!--Hamburger Menu for small devices-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Navigation items-->
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                
+                    <a class="nav-link active" id="navItem1" href="#wcuSection">
+                        Why Choose Us?
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#exploreMenuSection" id="navItem2">Explore Menu</a>
+                    <a class="nav-link" href="#deliveryPaymentSection" id="navItem3">Delivery & Payment</a>
+                    <a class="nav-link" href="#followUsSection" id="navItem4">Follow Us</a>
+                
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <!--Banner section-->
+    <div class="banner-section-bg-container d-flex justify-content-center flex-column">
+        <div class="text-center">
+            <h1 class="banner-heading mb-3">Frosty Weather, Hot Fashion</h1>
+            <p class="banner-caption mb-4">Fashion for the Frost</p>
+            <button class="custom-button">Order Now</button>
+        </div>
+    </div>
+    <!--Why choose us section-->
+    <div class="wcu-section pt-5 pb-5" id="wcuSection"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="wcu-section-heading"><b>Why Choose Us?</b></h1>
+                    <p class="wcu-section-description">
+                        Experience premium quality and unmatched comfort with our winter collection.
+Discover stylish designs perfect for every winter occasion.
+                    </p>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://thegirlfrompanama.com/wp-content/uploads/2015/03/Winter-Look-7-copy.jpg" class="wcu-card-image" />
+                        <p class="wcu-card-description">
+                           Eco-Friendly and Sustainable Materials.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://i.pinimg.com/originals/7f/5c/27/7f5c279b96251b29485daae40a4b89df.jpg" class="wcu-card-image" />
+                        
+                        <p class="wcu-card-description">
+                            Premium Quality, Unmatched Comfort
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://i.pinimg.com/originals/6f/20/cb/6f20cbb63a4df40794d0940ff76bf180.jpg" class="wcu-card-image" />
+                        <p class="wcu-card-description">
+                            Crafted for Warmth, Designed for Style
+                        </p>
+                    </div>
+                </div>
+                 <div class="col-12 col-md-4">
+                    <div class="wcu-card p-3 mb-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/offers-img.png" class="wcu-card-image" />
+                        <p class="wcu-card-description">
+                            Dress Coupons & Offers upto
+                            <span class="offers">50% OFF</span>
+                            and Exclusive Promo Codes on All Online Orders.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Explore Menu Section-->
+    <div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="menu-section-heading">Explore Products</h1>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://i.etsystatic.com/24667979/r/il/4defa5/2622841784/il_fullxfull.2622841784_91uk.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Sweat Shirts</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right-short" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="shadow menu-item-card p-3 mb-3">
+                        <img src="https://stylesatlife.com/wp-content/uploads/2015/11/Winter-Jackets-For-Women-16.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Jackets</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.6qWtVEZcDC_CiN23OqWDJgHaHa&pid=Api&P=0&h=180" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Hoodies</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.d0Df2rG21oojJVjzwdP2pAHaHa&pid=Api&P=0&h=180" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Sweaters</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://247teeshirt.com/wp-content/uploads/2019/11/H25903586a3c947f1984fea87ff201f35g.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Socks</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://glorytrends.com/wp-content/uploads/2020/04/scarves-for-women-2021-3.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Scarves</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <img src="https://m.media-amazon.com/images/I/A1CU2OgaA5L._AC_UL1500_.jpg" class="menu-item-image w-100" />
+                        <h1 class="menu-card-title">Gloves</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                 <div class="col-12 col-md-6 col-lg-3">
+                    <div class="menu-item-card shadow p-3 mb-3">
+                        <iframe src="https://5.imimg.com/data5/SELLER/Default/2021/4/PA/PJ/IH/124857376/ladies-monkey-cap-1000x1000.jpeg" width="200px" height="200">about AppleA11</iframe>
+                        <h1 class="menu-card-title">Monkey Caps</h1>
+                        <a href="" class="menu-item-link">
+                            View All
+                            <svg width="16px" height="16px" viewBox="0 0 16 16" class="bi bi-arrow-right" fill="#d0b200" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="https://www2.hm.com/en_in/kids/girls-9-14y/clothing.html?seasonality=Winter&id=ap1">More Collections</a>
+                </div>
+                <video width="450" height="250"
+      controls preload="auto">
+        <source src="c:\Users\jagru\Downloads\WhatsApp Video 2024-07-04 at 5.57.18 PM.mp4" 
+                type="video/mp4"></video>
+                <audio controls src="c:\Users\jagru\Downloads\WhatsApp Audio 2024-07-04 at 6.12.59 PM.mp4"></audio>
+            </div>
+        </div>
+    </div>
+    <!--Table represention that shwows why to shop in this website-->
+    <div class="table-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <h1 class="text-center" style="color:black">More Benifits</h1>
+                    <table border="1" style="width:100%" class="mb-3 ml-5">
+        
+            <tr>
+                <th>Feature</th>
+                <th>Tagline</th>
+                <th>Explanation</th>
+            </tr>
+            <tr>
+                <td>Premium Quality & Comfort</td>
+                <td>"Experience premium quality and unmatched comfort with our winter collection."</td>
+                <td>Highlighting the high-quality materials and comfort of your products.</td>
+            </tr>
+            <tr>
+                <td>Stylish Designs</td>
+                <td>"Discover stylish designs perfect for every winter occasion."</td>
+                <td>Emphasizing the fashionable and versatile designs.</td>
+            </tr>
+            <tr>
+                <td>Warmth & Style</td>
+                <td>"Our garments are crafted for warmth and designed with style in mind."</td>
+                <td>Showcasing the combination of functionality and fashion.</td>
+            </tr>
+            <tr>
+                <td>Eco-Friendly Materials</td>
+                <td>"We use eco-friendly and sustainable materials to protect the planet."</td>
+                <td>Focusing on the environmentally conscious production methods.</td>
+            </tr>
+            <tr>
+                <td>Exceptional Customer Service</td>
+                <td>"Enjoy exceptional customer service with every purchase."</td>
+                <td>Promising a great customer service experience.</td>
+            </tr>
+            <tr>
+                <td>Affordable Luxury</td>
+                <td>"Find affordable luxury in our range of winter wear."</td>
+                <td>Emphasizing the value and affordability of the products.</td>
+            </tr>
+            <tr>
+                <td>Durability</td>
+                <td>"Trust in the durability and longevity of our products."</td>
+                <td>Highlighting the long-lasting nature of the clothing.</td>
+            </tr>
+            <tr>
+                <td>Innovative Fabrics</td>
+                <td>"Stay warm with our innovative fabrics designed for maximum insulation."</td>
+                <td>Focusing on advanced materials that provide superior warmth.</td>
+            </tr>
+            <tr>
+                <td>Perfect Fit</td>
+                <td>"Our clothes offer a perfect fit, every time, for everyone."</td>
+                <td>Emphasizing the precise and comfortable fit of the products.</td>
+            </tr>
+            <tr>
+                <td>Community & Satisfaction</td>
+                <td>"Join our community of happy customers and experience the difference."</td>
+                <td>Encouraging customers to become part of a satisfied community.</td>
+            </tr>
+    </table>
+                    <button class="custom-button">Watch Video</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Delivery And Payment Section-->
+    <div class="delivery-and-payment-section pt-5 pb-5" id="deliveryPaymentSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-5 order-1 order-md-2">
+                    <div class="text-center">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/delivery-payment-section-img.png" class="delivery-and-payment-section-img" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 order-2 order-md-1">
+                    <h1 class="delivery-and-payment-section-heading">
+                        Delivery and Payment
+                    </h1>
+                    <p class="delivery-and-payment-section-description">
+                        Enjoy hassle-free payment with the plenitude of payment options
+                        available for you. Get live tracking and locate your food on a
+                        live map. It's quite a sight to see your food arrive to your door.
+                        Plus, you get a 5% discount on every order every time you pay
+                        online.
+                    </p>
+                    <button class="custom-button">Order Now</button>
+                    <!--Different methods for payment container-->
+                    <div class="mt-3">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/visa-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/master-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/paypal-card-img.png" class="payment-card-img" />
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/american-express-img.png" class="payment-card-img" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Thanking customer Section-->
+    <div class="thanking-customers-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-7 d-flex flex-column justify-content-center">
+                    <h1 class="thanking-customers-section-heading">
+                        Thank you for being a valuable customer to us.
+                    </h1>
+                    <p class="thanking-customers-section-description">
+                        We have a surprise gift for you
+                    </p>
+                    <div class="d-md-none">
+                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                    </div>
+<!--Reeddiming Gift-->
+                    <div>
+                        <button type="button" class="custom-button" data-toggle="modal" data-target="#exampleModal">
+                            Redeem Gift
+                        </button>
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title thanking-customers-section-modal-title" id="exampleModalLabel">
+                                            Gift Voucher
+                                        </h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/gift-voucher-img.png" class="w-100" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                            Close
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" class="thanking-customers-section-img" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Follow Us Section-->
+    <div class="follow-us-section pt-5 pb-5" id="followUsSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                    <div class="d-flex flex-row justify-content-center">
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-twitter icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-instagram icon"></i>
+                        </div>
+                        <div class="follow-us-icon-container">
+                            <i class="fab fa-facebook icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--Footer Section-->
+    <footer>
+    <div class="footer-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <img src="https://logodix.com/logo/1702716.png" class="food-munch-logo" />
+                    <h1 class="footer-section-mail-id">orderfashion123@gmail.com</h1>
+                    <p class="footer-section-address">
+                        123 Ayur Vigyan Nagar, New Delhi, India.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
